@@ -21,6 +21,8 @@ Using the page https://en.wikipedia.org/wiki/List_of_animal_names, write a pytho
   	“Ant”: "/tmp/ant.jpeg",
    ....
 }
+For animals that was not displayed on the same tag (a few ones) I wrote a generating AI based code with OpenAI
+In your .env file place your openai key
 
 - Write at least 2 test cases for the code you just wrote.
   
