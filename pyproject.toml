@@ -2,7 +2,7 @@
 name = "crowdstrike"
 version = "0.1.0"
 description = " output collateral adjectives of animal's wikipedia page by scraping it"
-authors = ["mikikop <39693826+mikikop@users.noreply.github.com>"]
+authors = [""]
 package-mode = false
 packages = [
     { include = "app" },
