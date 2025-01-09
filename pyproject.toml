@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "crowdstrike"
+version = "0.1.0"
+description = " output collateral adjectives of animal's wikipedia page by scraping it"
+authors = ["mikikop <39693826+mikikop@users.noreply.github.com>"]
+package-mode = false
+packages = [
+    { include = "app" },
+    { include = "images" },
+    { include = "tests" },
+    { include = "utils" },
+]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+requests = "^2.32.3"
+beautifulsoup4 = "^4.12.3"
+ipdb = "^0.13.13"
+python-dotenv = "^1.0.1"
+pytest = "^8.3.4"
+pytest-mock = "^3.14.0"
+aiohttp = "^3.11.11"
+aiofiles = "^24.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
